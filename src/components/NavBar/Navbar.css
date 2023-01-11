@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Gudea:wght@400;700&display=swap");
+
+.Nav {
+  background: #003342;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 12;
+}
+
+.Bar {
+  display: none;
+  color: #ffffff;
+}
+
+.Title {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.NavMenu {
+  display: flex;
+  align-items: flex-end;
+}
