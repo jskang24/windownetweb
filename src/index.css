@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Gudea:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Gruppo&family=Gudea:wght@400;700&display=swap");
 
 body {
   margin: 0;
@@ -67,4 +67,32 @@ code {
   font-family: "Gruppo", cursive;
   font-size: 5vh;
   color: white;
+}
+
+.Contact_Slogan {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+}
+
+.Contact_Support {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  border-top: solid 1px #003342;
+}
+
+.Contact_Empty {
+  height: 10vh;
+}
+
+.Contact_Text {
+  display: inline-block;
+  align-self: flex-end;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "GFS Didot", serif;
+  font-size: 40px;
+  color: #003342;
+  letter-spacing: 0.3rem;
 }

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Gruppo&family=Gudea:wght@400;700&display=swap");
+
+.Footer {
+  height: 25vh;
+  width: 100vw;
+  border-top: solid 1px #003342;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Footer_Empty {
+  height: 10vh;
+}
+
+.Footer_Image {
+  justify-content: center;
+  height: 7vh;
+  width: 7vh;
+}
+
+.Footer_Span {
+  margin: 3vh;
+  font-family: "GFS Didot", serif;
+  font-size: 20pt;
+  color: #003342;
+  display: block;
+}

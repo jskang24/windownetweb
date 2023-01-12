@@ -4,7 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 import Bar from "./Bar";
-import WindowNet from "../../assets/imgs/windownet.png";
+import WindowNet from "../../assets/imgs/windownetlogo.jpg";
 
 const NavLink = styled(Link)`
   color: #ffffff;
