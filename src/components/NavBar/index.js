@@ -38,7 +38,6 @@ const HomeLink = styled(Link)`
 `;
 
 const Navbar = () => {
-  const location = useLocation();
   return (
     <div className="Nav">
       <Bar />
