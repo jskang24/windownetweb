@@ -1,9 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { NavLink as Link } from "react-router-dom";
+import { NavLink as Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 import Bar from "./Bar";
+import WindowNet from "../../assets/imgs/windownet.png";
 
 const NavLink = styled(Link)`
   color: #ffffff;
@@ -37,11 +38,13 @@ const HomeLink = styled(Link)`
 `;
 
 const Navbar = () => {
+  const location = useLocation();
   return (
     <div className="Nav">
       <Bar />
       <div className="Title">
         <HomeLink to="/" activeStyle>
+          <img className="Logo" src={WindowNet} alt="" />
           Window Net
         </HomeLink>
       </div>

@@ -2,7 +2,7 @@
 
 .Nav {
   background: #003342;
-  height: 80px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   z-index: 12;
@@ -22,4 +22,9 @@
 .NavMenu {
   display: flex;
   align-items: flex-end;
+}
+
+.Logo {
+  height: 80px;
+  margin-right: 10px;
 }

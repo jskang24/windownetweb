@@ -1,4 +1,4 @@
-import Navbar from "./components/NavBar";
+// import Navbar from "./components/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
@@ -10,14 +10,13 @@ import Testimonials from "./pages/Testimonials";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/mission" component={Mission} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/opportunities" component={Opportunities} />
-        <Route path="/product" component={OurProduct} />
-        <Route path="/testimonials" component={Testimonials} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/mission" element={<Mission />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/opportunities" element={<Opportunities />} />
+        <Route path="/product" element={<OurProduct />} />
+        <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
     </Router>
   );
