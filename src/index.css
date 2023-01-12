@@ -96,3 +96,7 @@ code {
   color: #003342;
   letter-spacing: 0.3rem;
 }
+
+.Contact {
+  animation: fadeIn 1s;
+}
