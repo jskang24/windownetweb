@@ -100,3 +100,31 @@ code {
 .Contact {
   animation: fadeIn 1s;
 }
+
+.Mission {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.Mission_Slogan_Quote_Left {
+  margin-top: 5vh;
+}
+
+.Mission_Slogan_Quote_Right {
+  margin-top: 5vh;
+  margin-left: 70vw;
+}
+
+.Mission_Slogan_Text_Div {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 70vw;
+  text-align: center;
+}
+
+.Mission_Slogan_Text {
+  font-family: "GFS Didot", serif;
+  font-size: 60px;
+  letter-spacing: 0.8rem;
+  color: #003342;
+}
