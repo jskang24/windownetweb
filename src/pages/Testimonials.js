@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/NavBar/index";
+import Testimonial from "../assets/imgs/testimonials.png";
 
 import "../index.css";
 
@@ -27,6 +28,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
+        <img src={Testimonial} alt="" className="Testimonials_Image" />
       </div>
     </div>
   );

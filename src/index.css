@@ -281,3 +281,12 @@ code {
 .Testimonials_Animation {
   animation: fadeIn 1s;
 }
+
+.Info_Image {
+  width: 100vw;
+  animation: fadeIn 1s;
+}
+
+.Testimonials_Image {
+  width: 100%;
+}
