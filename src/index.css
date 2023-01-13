@@ -22,7 +22,7 @@ code {
   0% {
     opacity: 0;
   }
-  60% {
+  67% {
     opacity: 0;
   }
   100% {
@@ -31,11 +31,11 @@ code {
 }
 
 .NavbarAnimation {
-  animation: fadeInNav 4s;
+  animation: fadeInNav 3s;
 }
 
 .Animation {
-  animation: fadeIn 3s;
+  animation: fadeIn 2s;
   height: 90vh;
   width: 100vw;
 }
@@ -65,6 +65,7 @@ code {
 .Slogan {
   display: block;
   font-family: "Gruppo", cursive;
+  font-weight: 500;
   font-size: 5vh;
   color: white;
 }
@@ -127,4 +128,102 @@ code {
   font-size: 60px;
   letter-spacing: 0.8rem;
   color: #003342;
+}
+
+.Mission_WindowNet {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  width: 50vw;
+}
+
+.Divider {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 30vw;
+  border-top: solid 1px #003342;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.Divider2 {
+  margin-left: 35vw;
+  margin-right: 35vw;
+  width: 30vw;
+  border-top: solid 1px #003342;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.Mission_WindowNet_Title {
+  font-family: "Gudea", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #003342;
+  margin-bottom: 5vh;
+}
+
+.Mission_Empty {
+  height: 3vh;
+}
+
+.Mission_WindowNet_Text {
+  font-family: "Gruppo", cursive;
+  font-size: 20px;
+  color: #003342;
+}
+
+.Mission_Team {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  width: 50vw;
+}
+
+.Mission_Animation {
+  animation: fadeIn 1s;
+}
+
+.Mission_Team_Image {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  border: solid 1px #003342;
+  height: 20vw;
+  width: 20vw;
+}
+
+.Mission_Aim {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  width: 50vw;
+}
+
+.Mission_Column {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+}
+
+.Column {
+  flex: 30%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+}
+
+.Mission_Benefits {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-family: "Gruppo", cursive;
+  font-size: 24px;
+  font-weight: 700;
+  color: #003342;
+  text-decoration: underline;
+}
+
+.Mission_Empty2 {
+  margin-top: 5vh;
 }
