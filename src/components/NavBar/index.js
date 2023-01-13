@@ -57,9 +57,6 @@ const Navbar = () => {
         <NavLink to="/testimonials" activeStyle>
           Testimonials
         </NavLink>
-        <NavLink to="/opportunities" activeStyle>
-          Opportunities
-        </NavLink>
         <NavLink to="/contact" activeStyle>
           Contact
         </NavLink>

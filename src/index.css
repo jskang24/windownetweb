@@ -31,11 +31,11 @@ code {
 }
 
 .NavbarAnimation {
-  animation: fadeInNav 3s;
+  animation: fadeInNav 2s;
 }
 
 .Animation {
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
   height: 90vh;
   width: 100vw;
 }
@@ -226,4 +226,54 @@ code {
 
 .Mission_Empty2 {
   margin-top: 5vh;
+}
+
+.Statistics {
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.Statistics_Title {
+  font-family: "GFS Didot", serif;
+  font-size: 100px;
+  font-weight: 700;
+  height: 90px;
+  display: block;
+  letter-spacing: 0.8rem;
+  color: #145274;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.Statistics_Stats {
+  min-height: 800px;
+  width: 90vw;
+  background-color: #145274;
+  border-radius: 10px;
+}
+
+.Statistics_Stat {
+  min-height: 200px;
+  width: 84%;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 50px;
+}
+
+.Statistics_Major {
+  height: 200px;
+  font-family: "Gruppo", cursive;
+  font-size: 200px;
+  font-weight: 500;
+  color: white;
+}
+
+.Statistics_Minor {
+  margin-left: 1vw;
+  height: 200px;
+  font-family: "Gruppo", cursive;
+  font-size: 60px;
+  color: white;
 }
