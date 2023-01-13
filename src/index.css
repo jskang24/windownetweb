@@ -289,4 +289,129 @@ code {
 
 .Testimonials_Image {
   width: 100%;
+  /* margin-bottom: 5vh; */
+}
+
+.Product {
+  animation: fadeIn 1s;
+}
+
+.Product_Intro {
+  margin-top: 10vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  width: 50vw;
+}
+
+.Product_Title {
+  font-family: "Gudea", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #003342;
+  margin-bottom: 5vh;
+}
+
+.Product_Column {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+}
+
+.Product_Column1 {
+  flex: 50%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+  width: 50%;
+  height: 30vh;
+  border: solid 1px #003342;
+}
+
+.Product_Column2 {
+  flex: 30%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+  display: flex;
+}
+
+.Product_Col_Text {
+  font-family: "Gruppo", cursive;
+  font-size: 20px;
+  color: #003342;
+  font-weight: 600;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Product_Model {
+  margin-top: 10vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  width: 50vw;
+}
+
+.Product_Column_Struct {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+}
+
+.Product_Column3 {
+  flex: 35%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+  display: flex;
+}
+
+.Product_Model_Title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-family: "Gruppo", cursive;
+  font-size: 24px;
+  font-weight: 700;
+  color: #003342;
+  text-decoration: underline;
+}
+
+.Product_Empty {
+  margin-top: 2vh;
+}
+
+.Product_Model_Price {
+  font-family: "Gruppo", cursive;
+  font-size: 18px;
+  color: #003342;
+  font-weight: 600;
+}
+
+.Product_Model_Description {
+  font-family: "Gruppo", cursive;
+  font-size: 18px;
+  color: #003342;
+  font-weight: 400;
+}
+
+.Product_Market {
+  margin-top: 10vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  width: 50vw;
+}
+
+.Product_Image {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.Temp {
+  margin-bottom: 10vh;
 }

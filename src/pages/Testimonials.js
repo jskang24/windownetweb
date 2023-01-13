@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/NavBar/index";
 import Testimonial from "../assets/imgs/testimonials.png";
+import Footer from "../components/Footer/index";
 
 import "../index.css";
 
@@ -29,6 +30,7 @@ const Testimonials = () => {
           </div>
         </div>
         <img src={Testimonial} alt="" className="Testimonials_Image" />
+        <Footer />
       </div>
     </div>
   );
