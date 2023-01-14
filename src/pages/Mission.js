@@ -33,6 +33,35 @@ const Mission = () => {
             sustainable through reducing excessive air conditioning.
           </span>
         </div>
+        <div className="Mission_Motto">
+          <div className="Divider" />
+          <span className="Mission_WindowNet_Title">Motto</span>
+          <div className="Mission_Empty" />
+          <span className="Mission_WindowNet_Motto_Title">
+            "Close, Change, Save, and Sustain"
+          </span>
+          <div className="Mission_Empty" />
+          <span className="Mission_WindowNet_Motto_Title">Close</span>
+          <span className="Mission_WindowNet_Motto_Text">
+            windows when the AC is on
+          </span>
+          <div className="Mission_Empty3" />
+          <span className="Mission_WindowNet_Motto_Title">Change</span>
+          <span className="Mission_WindowNet_Motto_Text">
+            the world for the better
+          </span>
+          <div className="Mission_Empty3" />
+          <span className="Mission_WindowNet_Motto_Title">Save</span>
+          <span className="Mission_WindowNet_Motto_Text">
+            excess electricity bills & the natural environment
+          </span>
+          <div className="Mission_Empty3" />
+          <span className="Mission_WindowNet_Motto_Title">Sustain</span>
+          <span className="Mission_WindowNet_Motto_Text">
+            urban environments & electricity consumption
+          </span>
+        </div>
+
         <div className="Mission_Team">
           <div className="Divider" />
           <span className="Mission_WindowNet_Title">The Team</span>

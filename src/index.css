@@ -89,6 +89,7 @@ code {
 
 .Contact_Text {
   display: inline-block;
+  width: 80vw;
   align-self: flex-end;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -161,6 +162,25 @@ code {
   font-weight: 700;
   color: #003342;
   margin-bottom: 5vh;
+}
+
+.Mission_WindowNet_Motto_Title {
+  font-family: "Gruppo", cursive;
+  font-size: 36px;
+  font-weight: 700;
+  color: #003342;
+  margin-bottom: 5vh;
+  margin-right: 0.5vw;
+}
+.Mission_WindowNet_Motto_Text {
+  font-family: "Gruppo", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: #003342;
+  margin-bottom: 5vh;
+}
+.Mission_Empty3 {
+  height: 1vh;
 }
 
 .Mission_Empty {
@@ -414,4 +434,41 @@ code {
 
 .Temp {
   margin-bottom: 10vh;
+}
+
+.Contact_Button {
+  margin-top: 22vh;
+  height: 5vh;
+  width: 7vw;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #003342;
+  font-family: "GFS Didot", serif;
+  color: #003342;
+}
+
+.Contact_Since {
+  margin-top: 27vh;
+  font-family: "GFS Didot", serif;
+  font-size: 16px;
+  color: #003342;
+}
+
+button:active {
+  background-color: #003342;
+  color: #ffffff;
+}
+
+a {
+  color: #003342;
+  font-style: normal;
+  text-decoration: none;
+  font-family: "GFS Didot", serif;
+  font-size: 14px;
+}
+
+.Mission_Motto {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
 }
