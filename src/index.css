@@ -207,11 +207,7 @@ code {
 .Mission_Team_Image {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  border: solid 1px #003342;
-  height: 20vw;
-  width: 20vw;
+  width: 40vw;
 }
 
 .Mission_Aim {
@@ -345,8 +341,7 @@ code {
   margin-right: 5vw;
   text-align: center;
   width: 50%;
-  height: 30vh;
-  border: solid 1px #003342;
+  height: 40vh;
 }
 
 .Product_Column2 {
@@ -354,7 +349,7 @@ code {
   margin-left: 5vw;
   margin-right: 5vw;
   text-align: center;
-  display: flex;
+  /* display: flex; */
 }
 
 .Product_Col_Text {
@@ -471,4 +466,13 @@ a {
   margin-left: 25vw;
   margin-right: 25vw;
   text-align: center;
+}
+
+.Product_video_style {
+  color: #003342;
+  font-style: normal;
+  text-decoration: none;
+  font-family: "Gruppo", serif;
+  font-size: 20px;
+  margin-left: 1vh;
 }

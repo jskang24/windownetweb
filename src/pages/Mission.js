@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/NavBar/index";
 import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 import Footer from "../components/Footer/index";
+import TeamPhoto from "../assets/imgs/teamphoto.JPG";
 
 import "../index.css";
 
@@ -65,15 +66,26 @@ const Mission = () => {
         <div className="Mission_Team">
           <div className="Divider" />
           <span className="Mission_WindowNet_Title">The Team</span>
-          <div className="Mission_Team_Image"></div>
+          <div className="Mission_Team_Image_Container">
+            <img alt="" src={TeamPhoto} className="Mission_Team_Image" />
+          </div>
           <span className="Mission_WindowNet_Text">
-            Climate change is the next turning point for mankind. Whether we
-            turn towards complete destruction or technological advancement lies
-            in the hands of the current world and it is the collective
-            responsibility of mankind to alter the direction of humanity towards
-            a more sustainable future. Hence, our team aims to contribute to
-            this collective effort by making urban environments environmentally
-            sustainable through reducing excessive air conditioning.
+            Window network started from Jinwoo after attending a lecture on
+            sustainable development and green building to achieve financial
+            efficiency and environmental sustainability. Then talented students
+            in various areas joined the cause and collectively refined the
+            framework into “Window Net”. Jinwoo, a mathematician with interests
+            in urban environments and design, contributed to the conceptual
+            ideas and design of the project. Joonseok, a computer scientist,
+            created the overarching software network and website using his
+            experience in freelance app and web development. Sehun and Yongwon,
+            two physicists with a passion for theoretical physics and electrical
+            engineering, respectively, are responsible for developing the
+            mainboard and interconnecting circuits that were the key to our
+            innovation. Junghwan, an economist and marketer with a keen interest
+            in finance, shaped Window Net as a business ready for the
+            competitive market using his experiences in previous pitching
+            competitions.
           </span>
         </div>
         <div className="Mission_Aim">
@@ -88,14 +100,15 @@ const Mission = () => {
             <span className="Mission_Benefits">Environmental Benefits</span>
             <div className="Mission_Empty2" />
             <span className="Mission_WindowNet_Text">
-              Climate change is the next turning point for mankind. Whether we
-              turn towards complete destruction or technological advancement
-              lies in the hands of the current world and it is the collective
-              responsibility of mankind to alter the direction of humanity
-              towards a more sustainable future. Hence, our team aims to
-              contribute to this collective effort by making urban environments
-              environmentally sustainable through reducing excessive air
-              conditioning.
+              In the modern urban environment, electricity consumption is
+              increasing as the urban population increases due to natural growth
+              and migration. To reduce the consumption of electricity,
+              WindowNet's product alerts the user when both the air conditioner
+              is on and the window is opened as well as giving an option of
+              automatically turning off the air conditioner through the client
+              application. By saving electricity with our product, the amount of
+              greenhouse gas and pollutants being emitted will be significantly
+              reduced, contributing positively to the environment.
             </span>
           </div>
           <div className="Column">
@@ -103,14 +116,14 @@ const Mission = () => {
             <span className="Mission_Benefits">Economic Benefits</span>
             <div className="Mission_Empty2" />
             <span className="Mission_WindowNet_Text">
-              Climate change is the next turning point for mankind. Whether we
-              turn towards complete destruction or technological advancement
-              lies in the hands of the current world and it is the collective
-              responsibility of mankind to alter the direction of humanity
-              towards a more sustainable future. Hence, our team aims to
-              contribute to this collective effort by making urban environments
-              environmentally sustainable through reducing excessive air
-              conditioning.
+              By purchasing WindowNet's product, electricity bills can be saved
+              by flexibly switching the status of the air conditioner when
+              necessary. Unlike other IoT systems competing in the market,
+              WindowNet's service does not require unification of products made
+              by a single company. Additionally, the app itself is free to use
+              after purchasing the product model and itself is minimalistic and
+              convenient: able turn on and off, which can be used anywhere,
+              without any limitation on user access.
             </span>
           </div>
         </div>

@@ -4,6 +4,8 @@ import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 import Analysis from "../assets/imgs/analysis.png";
 import Comparison from "../assets/imgs/comparison.png";
 import Footer from "../components/Footer/index";
+import More from "../assets/imgs/more.jpg";
+import Video from "../assets/videos/video.mp4";
 
 import "../index.css";
 
@@ -26,7 +28,9 @@ const OurProduct = () => {
           <span className="Product_Title">Our Product</span>
         </div>
         <div className="Product_Column">
-          <div className="Product_Column1">Video to be inserted</div>
+          <video className="Product_Column1" controls>
+            <source src={Video} type="video/mp4"></source>
+          </video>
           <div className="Product_Column2">
             <span className="Product_Col_Text">
               For urban dwellers willing to take a greener step, Window Net
@@ -34,6 +38,16 @@ const OurProduct = () => {
               affordable price for versatile urban environments. Quick and easy
               to install, Window Net fosters an incomparable convenient
               experience to customers while saving energy.
+            </span>
+            <div className="Mission_Empty2" />
+            <span className="Product_Col_Text">
+              For full product video, go to
+              <a
+                href="https://youtu.be/2tSeAnJUtu8"
+                className="Product_video_style"
+              >
+                this link
+              </a>
             </span>
           </div>
         </div>
@@ -57,7 +71,7 @@ const OurProduct = () => {
             <div className="Mission_Empty2" />
             <span className="Product_Model_Price">
               From <br />
-              $24.99 or ₩25,000
+              $27.99 or ₩35,000
             </span>
           </div>
           <div className="Column">
@@ -75,7 +89,7 @@ const OurProduct = () => {
             <div className="Mission_Empty2" />
             <span className="Product_Model_Price">
               From <br />
-              $64.99 or ₩65,000
+              $51.99 or ₩65,000
             </span>
           </div>
         </div>
@@ -93,7 +107,9 @@ const OurProduct = () => {
           <div className="Divider" />
           <span className="Product_Title">More about our Product</span>
         </div>
-        <div className="Temp" />
+        <div className="Mission_Empty2" />
+        <img src={More} alt="" className="Product_Image" />
+        <div className="Mission_Empty2" />
         <Footer />
       </div>
     </div>
